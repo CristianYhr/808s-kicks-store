@@ -1,0 +1,226 @@
+/* CSS para la página de la tienda online */
+
+/* Restablecer estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Encabezado */
+header {
+  background-color: white;
+  border-bottom: 4px solid #49AAB9; /* Línea azul turquesa */
+
+}
+a .container {
+    color: black; /* Color del texto */
+    text-decoration: none; /* Elimina la decoración estándar del enlace */
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container a {
+  display: block;
+}
+
+header .container img {
+  width: 30px;
+  height: 30px;
+}
+
+header .container .busqueda {
+  position: relative;
+  width: 300px;
+}
+
+header .container .busqueda input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+header .container .busqueda button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header .container .usuario {
+  text-align: right;
+}
+
+header .container .usuario a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+header .container .usuario a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+  padding: 40px 0;
+}
+
+main .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main .categorias {
+  margin-bottom: 40px;
+}
+
+main .categorias ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .categorias ul li {
+  margin-right: 20px;
+}
+
+main .categorias ul li a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+main .categorias ul li a:hover {
+  text-decoration: underline;
+}
+
+main .productos {
+  width: 100%;
+}
+
+main .productos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main .productos th,
+main .productos td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+main .productos th {
+  background-color: #f2f2f2;
+}
+
+main .productos img {
+  max-width: 100px;
+}
+
+h1 #R1{
+  color: Blue;
+}
+
+button{
+  /* Propiedades generales */
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Propiedades de fondo y color */
+  background-color: #49AAB9;
+  color: #49AAB9;
+
+  /* Propiedades de la tipografía */
+  font-size: 16px;
+  font-family: sans-serif;
+  color: black;
+
+  /* Propiedades para el estado :hover */
+  &:hover {
+    background-color: #49AAB9;
+  }
+}
+/* Pie de página */
+/* Pie de página */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: #49AAB9;
+  color: #fff;
+  padding: 2px 0;
+  text-align: center;
+}
+
+
+/*principal*/
+.container2 {
+  display: flex; /* Utiliza flexbox */
+}
+
+.container2 section {
+  flex: 1; /* Cada sección ocupará un espacio igual */
+  margin-right: 20px; /* Margen derecho entre las secciones */
+}
+
+.container2 section:last-child {
+  margin-right: 0; /* Quita el margen derecho del último elemento */
+}
+
+
+
+.producto {
+  display: flex;
+  align-items: center; /* Aligns the content vertically */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.producto img {
+  width: 190px;
+  height: 100px;
+  margin-right: 10px; /* Margin for spacing between images */
+}
+
+.producto h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.producto p {
+  margin: 0;
+  padding: 0;
+}
